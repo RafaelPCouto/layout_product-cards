@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+}
+
+.stars {
+  display: flex;
+}
+
+.stars__star {
+  background-image: url("star.fa806e3c.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+}
+
+.stars__star:first-child {
+  margin-left: 0;
+}
+
+.stars--1 :first-child, .stars--2 :nth-child(-n+2), .stars--3 :nth-child(-n+3), .stars--4 :nth-child(-n+4), .stars--5 :nth-child(n+1) {
+  background-image: url("star-active.2be54011.svg");
+}
+
+.card {
+  box-sizing: border-box;
+  border: 1px solid #f3f3f3;
+  border-radius: 5px;
+  flex-direction: column;
+  width: 200px;
+  padding: 32px 16px 16px;
+  display: flex;
+}
+
+.card__img-container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.card__img {
+  width: 160px;
+  height: 134px;
+}
+
+.card__infos {
+  margin-top: 40px;
+}
+
+.card__name {
+  color: #060b35;
+  text-align: left;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.card__code {
+  color: #616070;
+  margin-top: 4px;
+  margin-bottom: 0;
+  font-family: Roboto, sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.card__reviews {
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+  display: flex;
+}
+
+.card__number {
+  font-family: Roboto, sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.card__price {
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+  display: flex;
+}
+
+.card__text {
+  color: #616070;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.card__value {
+  color: #060b35;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.card__button {
+  color: #fff;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #00acdc;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 16px;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 40px;
+  text-decoration: none;
+}
+
+.card__button:hover {
+  color: #00acdc;
+  background-color: #fff;
+  border: 1px solid #00acdc;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+/*# sourceMappingURL=index.e378193d.css.map */
